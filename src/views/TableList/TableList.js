@@ -137,7 +137,8 @@ export default function TableList() {
             </GridItem>
             
             <Drawer anchor="right" open={toggleAdd} onClose={() => setToggleAdd(false)}>
+
             </Drawer> 
         </GridContainer>
     );
-}
+
