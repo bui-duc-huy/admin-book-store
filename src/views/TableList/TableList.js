@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // core components
@@ -8,6 +8,12 @@ import Table from "components/Table/Table.js";
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
+import {
+    ButtonGroup,
+    Button,
+    Drawer,
+    TextField,
+} from '@material-ui/core'
 
 const styles = {
     cardCategoryWhite: {
@@ -37,21 +43,51 @@ const styles = {
             lineHeight: "1",
         },
     },
+    buttonGroup: {
+        boxShadow: "0px 0px 0px",
+        display: "flex",
+        justifyContent: "flex-end"
+    }
 };
 
 const useStyles = makeStyles(styles);
 
 export default function TableList() {
     const classes = useStyles();
+    const [toggleAdd, setToggleAdd] = useState(false)
+    const [toggleEdit, setToggleEdit] = useState()
+    
+    const handleClick = type => {
+        switch (type) {
+            case "add":
+                setToggleAdd(true)
+                break
+            case "edit":
+                setToggleEdit(true)
+                break
+        }
+    }
+    
     return (
         <GridContainer>
             <GridItem xs={12} sm={12} md={12}>
                 <Card>
                     <CardHeader color="primary">
-                        <h4 className={classes.cardTitleWhite}>Item Table</h4>
-                        <p className={classes.cardCategoryWhite}>
-                            List Item in system
-                        </p>
+                        <GridContainer>
+                            <GridItem xs={6} sm={6} md={6}>
+                                <h4 className={classes.cardTitleWhite}>Item Table</h4>
+                                <p className={classes.cardCategoryWhite}>
+                                    List Item in system
+                                </p>
+                            </GridItem>
+                            <GridItem xs={6} sm={6} md={6}>
+                                <ButtonGroup className={classes.buttonGroup} variant="contained" color="primary" aria-label="contained primary button group">
+                                    <Button onClick={() => handleClick("add")}>Add</Button>
+                                    <Button color="primary" onClick={() => handleClick("edit")}>Edit</Button>
+                                    <Button color="secondary" onClick={() => handleClick("delete")}>Delete</Button>
+                                </ButtonGroup>
+                            </GridItem>
+                        </GridContainer>
                     </CardHeader>
                     <CardBody>
                         <Table
@@ -99,6 +135,9 @@ export default function TableList() {
                     </CardBody>
                 </Card>
             </GridItem>
+            
+            <Drawer anchor="right" open={toggleAdd} onClose={() => setToggleAdd(false)}>
+            </Drawer> 
         </GridContainer>
     );
 }

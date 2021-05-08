@@ -5,11 +5,10 @@ import React, {
     useCallback,
     useState,
 } from "react";
-import { TOKEN_NAME, LIST_API, API_LINK } from "@environments";
 import axios from "axios";
 
 const TOKEN_NAME = "access-token";
-const API_LINK = {
+const LIST_API = {
     LOGIN: "",
 };
 
