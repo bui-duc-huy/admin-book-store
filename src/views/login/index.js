@@ -11,6 +11,7 @@ export default function Login() {
         try {
             const provider = new auth.GoogleAuthProvider()
             const hasAuth =  await auth().signInWithPopup(provider)
+            console.log(process.env.EMAIL_LOGIN)
             if (hasAuth.additionalUserInfo.profile.email == "duchuy.124dk@gmail.com") {
                 login(hasAuth)
                 history.push('/admin')

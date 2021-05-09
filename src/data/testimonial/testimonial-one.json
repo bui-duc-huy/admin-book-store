@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "image": "/assets/img/testimonial/testi-1.png",
+    "content": "Nothing to say",
+    "customerName": "Grace Alvarado",
+    "title": "customer"
+  },
+  {
+    "id": "2",
+    "image": "/assets/img/testimonial/testi-1.png",
+    "content": "Nothing to says",
+    "customerName": "John Doe",
+    "title": "customer"
+  }
+]

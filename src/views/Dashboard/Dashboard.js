@@ -38,15 +38,17 @@ import {
 } from "variables/charts.js";
 
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
+import products from 'data/products.json'
 
 const useStyles = makeStyles(styles);
 
-export default function Dashboard() {
+export default function Dashboard(props) {
+  console.log(products)
   const classes = useStyles();
   return (
     <div>
       <GridContainer>
-        <GridItem xs={12} sm={6} md={3}>
+        <GridItem xs={12} sm={6} md={4}>
           <Card>
             <CardHeader color="warning" stats icon>
               <CardIcon color="warning">
@@ -65,7 +67,7 @@ export default function Dashboard() {
             </CardFooter>
           </Card>
         </GridItem>
-        <GridItem xs={12} sm={6} md={3}>
+        <GridItem xs={12} sm={6} md={4}>
           <Card>
             <CardHeader color="success" stats icon>
               <CardIcon color="success">
@@ -82,14 +84,14 @@ export default function Dashboard() {
             </CardFooter>
           </Card>
         </GridItem>
-        <GridItem xs={12} sm={6} md={3}>
+        <GridItem xs={12} sm={6} md={4}>
           <Card>
             <CardHeader color="danger" stats icon>
               <CardIcon color="danger">
                 <Icon>info_outline</Icon>
               </CardIcon>
               <p className={classes.cardCategory}>New Product</p>
-              <h3 className={classes.cardTitle}>75</h3>
+              <h3 className={classes.cardTitle}>{products.length}</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
@@ -99,26 +101,9 @@ export default function Dashboard() {
             </CardFooter>
           </Card>
         </GridItem>
-        <GridItem xs={12} sm={6} md={3}>
-          <Card>
-            <CardHeader color="info" stats icon>
-              <CardIcon color="info">
-                <Accessibility />
-              </CardIcon>
-              <p className={classes.cardCategory}>Followers</p>
-              <h3 className={classes.cardTitle}>+245</h3>
-            </CardHeader>
-            <CardFooter stats>
-              <div className={classes.stats}>
-                <Update />
-                Just Updated
-              </div>
-            </CardFooter>
-          </Card>
-        </GridItem>
       </GridContainer>
       <GridContainer>
-        <GridItem xs={12} sm={12} md={4}>
+        <GridItem xs={12} sm={12} md={6}>
           <Card chart>
             <CardHeader color="success">
               <ChartistGraph
@@ -145,7 +130,7 @@ export default function Dashboard() {
             </CardFooter>
           </Card>
         </GridItem>
-        <GridItem xs={12} sm={12} md={4}>
+        <GridItem xs={12} sm={12} md={6}>
           <Card chart>
             <CardHeader color="warning">
               <ChartistGraph

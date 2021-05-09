@@ -14,6 +14,7 @@ import {
     Drawer,
     TextField,
 } from '@material-ui/core'
+import products from 'data/products.json'
 
 const styles = {
     cardCategoryWhite: {
@@ -53,6 +54,7 @@ const styles = {
 const useStyles = makeStyles(styles);
 
 export default function TableList() {
+    console.log(products)
     const classes = useStyles();
     const [toggleAdd, setToggleAdd] = useState(false)
     const [toggleEdit, setToggleEdit] = useState()
@@ -67,6 +69,21 @@ export default function TableList() {
                 break
         }
     }
+    const tableHead = ["id","sku", "name", "price", "discount", "saleCount", "category"]
+
+    const formatData = (products) => {
+        return products.map((prod, index) => {
+            let result = []
+            for (const [key, value] of Object.entries(prod)){
+                if (tableHead.indexOf(key) != -1) {
+                    result.push(value) 
+                }
+            }
+            return result
+        }) 
+    }
+
+    console.log(formatData(products))
     
     return (
         <GridContainer>
@@ -92,52 +109,15 @@ export default function TableList() {
                     <CardBody>
                         <Table
                             tableHeaderColor="primary"
-                            tableHead={["Name", "Country", "City", "Salary"]}
-                            tableData={[
-                                [
-                                    "Dakota Rice",
-                                    "Niger",
-                                    "Oud-Turnhout",
-                                    "$36,738",
-                                ],
-                                [
-                                    "Minerva Hooper",
-                                    "Curaçao",
-                                    "Sinaai-Waas",
-                                    "$23,789",
-                                ],
-                                [
-                                    "Sage Rodriguez",
-                                    "Netherlands",
-                                    "Baileux",
-                                    "$56,142",
-                                ],
-                                [
-                                    "Philip Chaney",
-                                    "Korea, South",
-                                    "Overland Park",
-                                    "$38,735",
-                                ],
-                                [
-                                    "Doris Greene",
-                                    "Malawi",
-                                    "Feldkirchen in Kärnten",
-                                    "$63,542",
-                                ],
-                                [
-                                    "Mason Porter",
-                                    "Chile",
-                                    "Gloucester",
-                                    "$78,615",
-                                ],
-                            ]}
+                            tableHead={tableHead}
+                            tableData={formatData(products)}
                         />
                     </CardBody>
                 </Card>
             </GridItem>
             
             <Drawer anchor="right" open={toggleAdd} onClose={() => setToggleAdd(false)}>
-
+                
             </Drawer> 
         </GridContainer>
     );

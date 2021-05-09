@@ -17,7 +17,7 @@ const AuthContext = createContext();
 function AuthValue() {
     // const { onPost: loginUser }
     // const [isAuth, setIsAuth] = useState(!!localStorage.getItem(TOKEN_NAME));
-    const [isAuth, setIsAuth] = useState(false);
+    const [isAuth, setIsAuth] = useState(true);
     const [currentUser, setCurrentUser] = useState();
 
     const login = async (auth) => {

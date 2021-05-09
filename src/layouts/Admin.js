@@ -17,30 +17,29 @@ import styles from "assets/jss/material-dashboard-react/layouts/adminStyle.js";
 import bgImage from "assets/img/sidebar-2.jpg";
 import logo from "assets/img/reactlogo.png";
 import { useAuth } from "contexts";
-
 let ps;
 
-const switchRoutes = (
-    <Switch>
-        {routes.map((prop, key) => {
-            if (prop.layout === "/admin") {
-                return (
-                    <Route
-                        path={prop.layout + prop.path}
-                        component={prop.component}
-                        key={key}
-                    />
-                );
-            }
-            return null;
-        })}
-        <Redirect from="/admin" to="/admin/dashboard" />
-    </Switch>
-);
 
 const useStyles = makeStyles(styles);
 
 export default function Admin({ ...rest }) {
+    const switchRoutes = (
+        <Switch>
+            {routes.map((prop, key) => {
+                if (prop.layout === "/admin") {
+                    return (
+                        <Route
+                            path={prop.layout + prop.path}
+                            component={prop.component}
+                            key={key}
+                        />
+                    );
+                }
+                return null;
+            })}
+            <Redirect from="/admin" to="/admin/dashboard" />
+        </Switch>
+    );
     // styles
     const classes = useStyles();
     // ref to help us initialize PerfectScrollbar on windows devices

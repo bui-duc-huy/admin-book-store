@@ -1,0 +1,457 @@
+[
+  {
+    "id": "3",
+    "sku": "asdf125",
+    "name": "Gia Tộc Morgan - Một Triều Đại Ngân Hàng Mỹ Và Sự Trỗi Dậy Của Nền Tài Chính Hiện Đại",  
+    "price": 17.45,
+    "discount": 36,
+    "offerEnd": "October 2, 2020 12:11:00",
+    "new": true,
+    "rating": 5,
+    "saleCount": 36,
+    "category": ["NXB Kim Đồng"],
+    "tag": ["books", "history"],
+    "stock": 4,
+    "image": [
+      "/assets/img/product/books/1.png",
+      "/assets/img/product/books/2.png",
+      "/assets/img/product/books/3.png"
+    ],
+    "shortDescription": "Hình thành, phát triển, sụp đổ rồi lại hồi sinh, có lẽ không một tổ chức nào ẩn chứa nhiều giai thoại, bí mật hay chủ đề gây tranh cãi gay gắt như đế chế ngân hàng Mỹ – Gia tộc Morgan. Đạt Giải thưởng Sách quốc gia và hiện được coi là một tác phẩm kinh điển, Gia tộc Morgan là cuốn tiểu sử tham vọng nhất từng được viết về một triều đại ngân hàng Mỹ. Cuốn sách vẽ nên bức tranh toàn diện về bốn thế hệ nhà Morgan và các công ty bí mật, mạnh mẽ mà họ sở hữu.",
+    "fullDescription": "Hình thành, phát triển, sụp đổ rồi lại hồi sinh, có lẽ không một tổ chức nào ẩn chứa nhiều giai thoại, bí mật hay chủ đề gây tranh cãi gay gắt như đế chế ngân hàng Mỹ – Gia tộc Morgan. Đạt Giải thưởng Sách quốc gia và hiện được coi là một tác phẩm kinh điển, Gia tộc Morgan là cuốn tiểu sử tham vọng nhất từng được viết về một triều đại ngân hàng Mỹ. Cuốn sách vẽ nên bức tranh toàn diện về bốn thế hệ nhà Morgan và các công ty bí mật, mạnh mẽ mà họ sở hữu. Với thế lực của mình, đế chế Morgan đã biến nền kinh tế non trẻ của Mỹ thành một cường quốc công nghiệp mạnh nhất thế giới và khiến trung tâm tài chính thế giới dịch chuyển từ London sang New York. Vượt xa cả lịch sử đơn thuần của ngành ngân hàng Mỹ, cuốn sách chính là câu chuyện về sự tiến hóa của nền tài chính hiện đại. Dựa trên các cuộc phỏng vấn rộng rãi cùng quyền truy cập đặc biệt vào kho lưu trữ của gia tộc này, tác đã khắc họa nên bức chân dung hấp dẫn về câu chuyện riêng của nhà Morgan và thế giới hiếm hoi của giới tinh hoa Mỹ và Anh."
+  },
+  {
+    "id": "4",
+    "sku": "asdf126",
+    "name": "Tam Thể 3 - Tử Thần Sống Mãi",
+    "price": 15.5,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 20,
+    "category": ["Fahasa"],
+    "tag": ["books", "chinese", "novel", "love"],
+    "stock": 10,
+    "image": [
+      "/assets/img/product/books/4.png"
+    ],
+    "shortDescription": "“Tiểu thuyết của Lưu Từ Hân cho thấy trình độ thâm hậu và sự chuẩn bị chu đáo. Ông dùng kiến thức khoa học vững chắc làm nền tảng cho trí tưởng tượng, dung hợp cuộc sống chốn nhân gian và cuộc sống trong tưởng tượng với nhau, tạo ra nét thú vị riêng biệt.” - MẠC NGÔN",
+    "fullDescription": "Đe dọa khu rừng đen tối giúp nhân loại duy trì thế cân bằng chiến lược với thế giới Tam Thể suốt sáu mươi năm. Song rốt cuộc, một đòn tấn công bất ngờ đã làm thay đổi cục diện. Loài người cận kề bờ vực diệt vong, buộc phải phát đi thông tin tọa độ của hệ sao Tam Thể. Nhưng rồi, họ đối mặt với một vấn đề sinh tồn mới: vị trí của Hệ Mặt trời sớm muộn gì cũng bị lộ trước những tay “thợ săn” vũ trụ. Mọi hy vọng đều gửi gắm vào việc giải mã ba câu chuyện cổ tích được truyền về từ một cá thể nhân loại giấu mình trong nội bộ hạm đội người ngoài hành tinh."
+  },
+  {
+    "id": "5",
+    "sku": "asdf127",
+    "name": "Vụ Án Mạng Ở Nhà Khách Núi Hakuba",
+    "price": 25.5,
+    "discount": 10,
+    "new": true,
+    "rating": 5,
+    "saleCount": 25,
+    "category": ["Alphabooks"],
+    "tag": ["books", "women","vietnamese", "history"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/books/7.png",
+      "/assets/img/product/books/5.png",
+      "/assets/img/product/books/4.png"
+    ],
+    "shortDescription": "Mùa đông một năm trước, người anh trai tên Koichi đã tự sát, để lại một tấm bưu thiếp với câu hỏi: “Mẹ Maria về nhà khi nào?”",
+    "fullDescription": "Naoko, cô em gái đang là sinh viên đại học, vẫn luôn ôm mối hoài nghi về cái chết của anh trai. Cô cùng người bạn thân Makoto của mình đến thăm nhà khách “Mẹ Ngỗng” ở núi Hakuba thuộc tỉnh Nagano, nơi anh mình đã qua đời. Lạ lùng thay, nhà khách lại đón tiếp những vị khách quen thuộc hệt như một năm trước đó. Bí mật nào đang ẩn nấp sau những bài đồng dao Mẹ Ngỗng trong mỗi căn phòng? Quá khứ nào đang được giấu kín trong nhà khách?"
+  },
+  {
+    "id": "6",
+    "sku": "asdf128",
+    "name": "Boxset Harry Potter - Tiếng Việt (Trọn Bộ 7 Tập)",
+    "price": 119.85,
+    "discount": 0,
+    "offerEnd": "January 17, 2021 12:11:00",
+    "new": true,
+    "rating": 5,
+    "saleCount": 65,
+    "category": ["Alphabooks"],
+    "tag": ["books","sale", "fiction", "novel", "magical","vietnamese"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/books/8.png",
+      "/assets/img/product/books/9.png",
+      "/assets/img/product/books/10.png"
+    ],
+    "shortDescription": "Bộ truyện bảy tập Harry Potter là tác phẩm đáng tự hào nhất, nổi tiếng nhất đồng thời cũng là tác phẩm mang lại danh tiếng cho sự nghiệp văn chương của nữ tác giả người Anh J. K. Rowling.",
+    "fullDescription": "Nội dung câu chuyện giả tưởng từng gây sốt trên nhiều thị trường sách này kể về cuộc chiến của cậu bé Harry Potter một mình chống lại một phù thủy hắc ám Chúa tể Voldemort, người đã giết cha mẹ cậu để thực hiện tham vọng làm chủ thế giới phù thủy. Harry Potter đã chắp cánh cho trí tưởng tượng của trẻ em trên toàn thế giới bay cao bay xa trong thế giới pháp thuật huyền hoặc. Truyện bắt đầu với một nhân vật bình thường, thậm chí là có phần tầm thường và nó diễn ra ngay bên cạnh chúng ta, bắt đầu từ sân ga 9¾ ở nhà ga Ngã tư Vua. Lần lượt bảy tập truyện sẽ đưa độc giả đi khám phá con đường trở thành pháp sư đầy chông gai, thử thách của Harry cùng với các bạn của mình tại ngôi trường phù thủy Hogwarts."
+  },
+  {
+    "id": "7",
+    "sku": "asdf129",
+    "name": "Mắt Biếc (Tái Bản 2019)",
+    "price": 55.5,
+    "discount": 40,
+    "new": true,
+    "rating": 5,
+    "saleCount": 55,
+    "category": ["NXB Trẻ"],
+    "tag": ["books", "novel", "love", "children"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/books/11.png",
+      "/assets/img/product/books/12.png"
+    ],
+    "shortDescription": "Mắt biếc là một tác phẩm được nhiều người bình chọn là hay nhất của nhà văn Nguyễn Nhật Ánh. Tác phẩm này cũng đã được dịch giả Kato Sakae dịch sang tiếng Nhật để giới thiệu với độc giả Nhật Bản. ",
+    "fullDescription": "Tôi gửi tình yêu cho mùa hè, nhưng mùa hè không giữ nổi. Mùa hè chỉ biết ra hoa, phượng đỏ sân trường và tiếng ve nỉ non trong lá. Mùa hè ngây ngô, giống như tôi vậy. Nó chẳng làm được những điều tôi ký thác. Nó để Hà Lan đốt tôi, đốt rụi. Trái tim tôi cháy thành tro, rơi vãi trên đường về."
+  },
+  {
+    "id": "8",
+    "sku": "asdf130",
+    "name": "LSự Trỗi Dậy Và Suy Tàn Của Đế Chế Thứ Ba - Lịch Sử Đức Quốc Xã",
+    "price": 29.85,
+    "discount": 10,
+    "offerEnd": "October 18, 2020 12:11:00",
+    "new": false,
+    "rating": 5,
+    "saleCount": 83,
+    "category": ["Bách Việt"],
+    "tag": ["books", "history", "worldwar"],
+    "stock": 0,
+    "image": [
+      "/assets/img/product/books/13.png",
+      "/assets/img/product/books/14.png",
+      "/assets/img/product/books/15.png"
+    ],
+    "shortDescription": "Ngay trong năm đầu tiên phát hành - 1960, Sự trỗi dậy và suy tàn của Đế chế thứ ba đã bán được tới 1 triệu bản tại Mỹ và được tái bản hơn 20 lần. Cuốn sách là bản tường thuật hết sức chi tiết về nước Đức, dưới sự cai trị của Adolf Hitler và Đảng Quốc xã. ",
+    "fullDescription": "Ngay trong năm đầu tiên phát hành - 1960, Sự trỗi dậy và suy tàn của Đế chế thứ ba đã bán được tới 1 triệu bản tại Mỹ và được tái bản hơn 20 lần. Cuốn sách là bản tường thuật hết sức chi tiết về nước Đức, dưới sự cai trị của Adolf Hitler và Đảng Quốc xã. Tác giả đã nghiên cứu kĩ lưỡng về sự ra đời của Đế chế thứ ba ở Đức, con đường dẫn đến quyền lực tuyệt đối của Đảng Quốc xã, diễn biến của Chiến tranh thế giới lần thứ hai và sự thất bại của Phát xít Đức. Nguồn tài liệu của cuốn sách bao gồm lời khai của các nhà lãnh đạo Đảng Quốc xã, nhật kí của các quan chức, cùng hàng loạt các quân lệnh và thư mật. Sự trỗi dậy và suy tàn của Đế chế thứ ba là một trong những công trình nghiên cứu lịch sử quan trọng nhất, nói về một trong những giai đoạn u ám nhất của lịch sử loài người. "
+  },
+  {
+    "id": "9",
+    "sku": "asdf131",
+    "name": "Khi Hơi Thở Hóa Thinh Khô",
+    "price": 35.6,
+    "discount": 0,
+    "new": false,
+    "rating": 4,
+    "saleCount": 95,
+    "category": ["Alphabooks"],
+    "tag": ["books"],
+    "stock": 5,
+    "image": [
+      "/assets/img/product/books/16.png",
+      "/assets/img/product/books/17.png",
+      "/assets/img/product/books/18.png"
+    ],
+    "shortDescription": "Khi Hơi Thở Hóa Thinh Không là tự truyện của một bác sĩ bị mắc bệnh ung thư phổi. Trong cuốn sách này, tác giả đã chia sẻ những trải nghiệm từ khi mới bắt đầu học ngành y, tiếp xúc với bệnh nhân cho tới khi phát hiện ra mình bị ung thư và phải điều trị lâu dài.",
+    "fullDescription": "Kalanithi rất yêu thích văn chương nên câu chuyện của anh đã được thuật lại theo một phong cách mượt mà, dung dị và đầy cảm xúc. Độc giả cũng được hiểu thêm về triết lý sống, triết lý nghề y của Kalanithi, thông qua ký ức về những ngày anh còn là sinh viên, rồi thực tập, cho đến khi chính thức hành nghề phẫu thuật thần kinh. “Đối với bệnh nhân và gia đình, phẫu thuật não là sự kiện bi thảm nhất mà họ từng phải đối mặt và nó có tác động như bất kỳ một biến cố lớn lao trong đời. Trong những thời điểm nguy cấp đó, câu hỏi không chỉ đơn thuần là sống hay chết mà còn là cuộc sống nào đáng sống.” – Kalanithi luôn biết cách đưa vào câu chuyện những suy nghĩ sâu sắc và đầy sự đồng cảm như thế."
+  },
+  
+  {
+    "id": "10",
+    "sku": "asdf174",
+    "name": "Từ Vô Hình Đến Hữu Hình: Khám Phá Thế Giới Diệu Kỳ Của Các Loại Vật Chất ",
+    "price": 6.5,
+    "discount": 30,
+    "new": true,
+    "rating": 5,
+    "saleCount": 10,
+    "category": ["NXB Kim Đồng"],
+    "tag": ["book"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/books/19.png",
+      "/assets/img/product/books/20.png",
+      "/assets/img/product/books/21.png"
+    ],
+    "shortDescription": "Từ vô hình đến hữu hình.",
+    "fullDescription" :"Màu đậm hay nhạt, trong suốt hay mờ đục, kết cấu đặc hay loãng - có lẽ rượu vang đã không phải chịu sự soi xét kỹ lưỡng đến thế nếu không phải vì sự ra đời của cốc thủy tinh vào thế kỷ 1 SCN. Khởi nguồn từ đây, người phương Tây đã bắt đầu “nghịch” thủy tinh. Vật liệu trong suốt, đa năng này đã mở ra kỷ nguyên mới, không chỉ trong kiến trúc, như cửa sổ kính màu đặc trưng của các nhà thờ, mà còn mang tới kính viễn vọng và kính hiển vi - cầu nối giữa con người với vũ trụ bao la và thế giới vi mô bí ẩn. Không có gương kính và thủy tinh thì cũng sẽ không có bóng đèn điện của Edison hay những phát minh trong ống nghiệm của các nhà hóa học."
+  },
+  {
+    "id": "1",
+    "sku": "asdf175",
+    "name": "Các Chòm Sao – Toàn Cảnh Về Bầu Trời Đêm",
+    "price": 4.2,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 10,
+    "category": ["Fahasa"],
+    "tag": ["book"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/books/22.png",
+      "/assets/img/product/books/23.png",
+      "/assets/img/product/books/24.png"
+    ],
+    "shortDescription": "'Các chòm sao: Toàn cảnh về bầu trời đêm'- cuốn sách giá trị cho người đam mê khoa học và yêu thích bầu trời đêm.",
+    "fullDescription": "Không có bất cứ tài liệu nào có thể khẳng định chính xác xem liệu rằng từ khi nào con người đã bắt đầu quan sát bầu trời đêm. Đó có thể là thời điểm sơ khai của tổ chức xã hội loài người, hay từ những tổ tiên xa xôi hàng triệu hoặc hàng chục triệu năm trước. Nhưng có một điều chắc chắn là từ khi con người bắt đầu tìm hiểu và ghi nhận các quy luật của thế giới tự nhiên, thì bầu trời là một trong những đối tượng thu hút được nhiều sự chú ý nhất."
+  },
+  {
+    "id": "11",
+    "sku": "asdf176",
+    "name": "Những Bá Chủ Không Gian",
+    "price": 6.6,
+    "discount": 20,
+    "new": true,
+    "rating": 3,
+    "saleCount": 11,
+    "category": ["book"],
+    "tag": ["book", "westnovel"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/books/25.png"
+    ],
+    "shortDescription": "Những Bá Chủ Không Gian - Elon Musk, Jeff Bezos và hành trình chinh phục vũ trụ",
+    "fullDescription": "MUSK VÀ BEZOS, hai tỷ phú với hai phong cách và tính khí vô cùng khác biệt, chính là những người đi đầu trong việc làm sống lại chương trình không gian Mỹ. Đầy táo bạo, Musk luôn tiến về phía trước, những thành công và thất bại của ông luôn là tâm điểm của sự chú ý. Ngược lại, Bezos luôn kín kẽ và thận trọng, dự án tên lửa của ông luôn phủ một lớp màn bí mật."
+  },
+  {
+    "id": "12",
+    "sku": "asdf177",
+    "name": "Quẳng Gánh Lo Đi Và Vui Sống (Bìa Cứng)",
+    "price": 7.1,
+    "discount": 40,
+    "new": true,
+    "rating": 4,
+    "saleCount": 19,
+    "category": ["Nhã Nam"],
+    "tag": ["book"],
+    "stock": 40,
+    "image": [
+      "/assets/img/product/books/26.png"
+    ],
+    "shortDescription": "Bất kỳ ai đang sống đều sẽ có những lo lắng thường trực về học hành, công việc, những hoá đơn, chuyện nhà cửa,… Cuộc sống không dễ dàng giải thoát bạn khỏi căng thẳng, ngược lại, nếu quá lo lắng, bạn có thể mắc bệnh trầm cảm. Quẳng Gánh Lo Đi Và Vui Sống khuyên bạn hãy khóa chặt dĩ vãng và tương lai lại để sống trong cái phòng kín mít của ngày hôm nay. Mọi vấn đề đều có thể được giải quyết, chỉ cần bạn bình tĩnh và xác định đúng hành động cần làm vào đúng thời điểm.",
+    "fullDescription": "Bất kỳ ai đang sống đều sẽ có những lo lắng thường trực về học hành, công việc, những hoá đơn, chuyện nhà cửa,… Cuộc sống không dễ dàng giải thoát bạn khỏi căng thẳng, ngược lại, nếu quá lo lắng, bạn có thể mắc bệnh trầm cảm. Quẳng Gánh Lo Đi Và Vui Sống khuyên bạn hãy khóa chặt dĩ vãng và tương lai lại để sống trong cái phòng kín mít của ngày hôm nay. Mọi vấn đề đều có thể được giải quyết, chỉ cần bạn bình tĩnh và xác định đúng hành động cần làm vào đúng thời điểm."
+  },
+  {
+    "id": "13",
+    "sku": "asdf178",
+    "name": "Đàn Ông Sao Hỏa - Đàn Bà Sao Kim",
+    "price": 8.6,
+    "discount": 30,
+    "new": false,
+    "rating": 4,
+    "saleCount": 12,
+    "category": ["Fahasa"],
+    "tag": ["book"],
+    "stock": 8,
+    "image": [
+      "/assets/img/product/books/27.png",
+      "/assets/img/product/books/28.png"
+    ],
+    "shortDescription": "Cuốn sách này thực sự đã giúp đỡ cho hàng triệu độc giả, trong đó có tôi và chắc chắn cũng sẽ có bạn. ",
+    "fullDescription": "Cuốn sách này thực sự đã giúp đỡ cho hàng triệu độc giả, trong đó có tôi và chắc chắn cũng sẽ có bạn. Nếu không có những ý niệm mới mẻ này thì chưa chắc tôi đã có được cuộc hôn nhân hạnh phúc như hiện nay hay có thể trở thành một người cha giàu đức hy sinh đối với các con của mình như vậy. Những vướng mắc trong mối quan hệ với vợ cách đây hai mươi năm đã từng làm tôi tức điên lên, hiện giờ thi thoảng nó vẫn thường xảy ra. Nhưng điều khác biệt là tôi đã biết khoan dung hơn, chấp nhận và thấu hiểu hơn. Tôi có thể hiểu những lời lẽ và phản ứng của vợ tôi theo cách khách quan hơn, đồng thời tôi biết cách nên đáp lại như thế nào. Có thể tôi là một chuyên gia trong lĩnh vực giao tiếp và sự khác biệt về giới tính, tuy nhiên, đối với Bonnie và các cô con gái của tôi thì việc để hiều được họ vẫn còn là những bí ẩn. Dù vậy, cuốn sách này có thể giúp chúng ta trở nên khoan dung và biết tha thứ khi ai đó không đáp lại theo cách mà ta mong đợi. May mắn thay, để xây dựng những mối quan hệ bền đẹp, tính hoàn hảo không phải là điều kiện bắt buộc."
+  },
+  {
+    "id": "14",
+    "sku": "asdf179",
+    "name": "Quyền Tách Khỏi Đám Đông",
+    "price": 5.5,
+    "discount": 10,
+    "new": true,
+    "rating": 4,
+    "saleCount": 19,
+    "category": ["book"],
+    "tag": ["book"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/books/29.png",
+      "/assets/img/product/books/30.png",
+      "/assets/img/product/books/31.png"
+    ],
+    "shortDescription": "Chúng ta đều bị mắc bẫy bởi câu nói: “Hãy nỗ lực hơn nữa”. Đó là lý do vì sao không bao giờ chúng ta cảm thấy hạnh phúc. Điều này giống như một người cực đoan luôn giữ vững tâm lý lạc quan, tẩy xóa những nỗi buồn và thương tổn khi nó xuất hiện.",
+    "fullDescription": "Hạnh phúc là cảm xúc xuất hiện ở bên trong và mọi nỗ lực từ bên ngoài dễ làm chúng ta ảo tưởng về hạnh phúc. Điều đầu tiên để chạm đến hạnh phúc đó chính là tôn trọng tất cả mọi cảm xúc của chính mình và biết ơn tất cả mọi điều đến với chúng ta, dù đó là khổ đau hay vui vẻ. Bạn sẽ cảm nhận được vẻ đẹp thật sự của ánh sáng khi đã từng nằm im lìm trong bóng tối để biết nó là gì; u ám, tuyệt vọng là gì; nhưng quan trọng hơn cả là dám chân thật với cảm xúc của bản thân."
+  },
+  {
+    "id": "15",
+    "sku": "asdf180",
+    "name": "Bài Học Diệu Kỳ Từ Chiếc Xe Rác",
+    "price": 3.2,
+    "discount": 20,
+    "new": false,
+    "rating": 2,
+    "saleCount": 9,
+    "category": ["Alphabooks"],
+    "tag": ["book"],
+    "stock": 11,
+    "image": [
+      "/assets/img/product/books/32.png",
+      "/assets/img/product/books/33.png",
+      "/assets/img/product/books/34.png"
+    ],
+    "shortDescription": "Cam kết nói không với 'xe rác' khiến cho hạnh phúc và phép lịch sự trở thành hiện thực. Điều này hỗ trợ điều kia trong một vòng tròn khép kín.",
+    "fullDescription": ""
+  },
+  {
+    "id": "16",
+    "sku": "asdf181",
+    "name": "Thả Trôi Phiền Muộn ",
+    "price": 8.5,
+    "discount": 5,
+    "new": true,
+    "rating": 3,
+    "saleCount": 19,
+    "category": ["book"],
+    "tag": ["book"],
+    "stock": 30,
+    "image": [
+      "/assets/img/product/books/35.png",
+      "/assets/img/product/books/36.png"
+    ],
+    "shortDescription": "Chúng ta đến thế giới này, tựu trung chỉ có hai việc lớn: sanh và tử. Một việc đã hoàn thành, chỉ còn lại một thôi, nên không cần phải gấp! Bởi vì đời người cũng chỉ gói gọn trong ba ngày: Ngày hôm qua như nước chảy mây bay, qua rồi không thể trở lại; ngày hôm nay dù đang ở đây nhưng cũng từng bước lùi vào quá khứ; và ngày mai sẽ đến nhưng rồi cũng sẽ qua đi. ",
+    "fullDescription": "Chúng ta đến thế giới này, tựu trung chỉ có hai việc lớn: sanh và tử. Một việc đã hoàn thành, chỉ còn lại một thôi, nên không cần phải gấp! Bởi vì đời người cũng chỉ gói gọn trong ba ngày: Ngày hôm qua như nước chảy mây bay, qua rồi không thể trở lại; ngày hôm nay dù đang ở đây nhưng cũng từng bước lùi vào quá khứ; và ngày mai sẽ đến nhưng rồi cũng sẽ qua đi. Và chúng ta, những con người bằng xương bằng thịt sẽ khó tránh khỏi những lúc sức cùng lực kiệt. Một trái tim nhỏ bé yếu đuối, sẽ có khi cảm thấy thương tổn đau lòng. Cuộc sống cũng giống như bầu trời, không thể lúc nào cũng trong lành để bạn vui thích, mà đôi khi sẽ u ám khiến bạn phiền muộn. Cuộc sống cũng không thể tặng mãi cho bạn những điều may mắn và hạnh phúc, có lúc nó sẽ bắt bạn nếm đủ những cay đắng-ngọt-bùi. Vì thế hãy mở lòng mình ra, tập nếp sống thứ tha, bước qua những người và những việc khiến bản thân phiền muộn, bạn sẽ thấy mình đang đứng ở trên cao và nhìn ra xa tận cuối chân trời."
+  },
+  
+  {
+    "id": "17",
+    "sku": "asdf210",
+    "name": "Bàn Về Trung Quốc Trỗi Dậy",
+    "price": 12.45,
+    "discount": 10,
+    "offerEnd": "October 5, 2020 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["NXB Kim Đồng"],
+    "tag": ["books", "kids"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/books/53.png"
+    ],
+    "shortDescription": "Có thể nói 'Bàn về Trung Quốc trỗi dậy' thuộc dạng 'Đại thế luận' của thời này, một thời đại cuồn cuộn thông tin đi kèm những bình luận hợp hoặc bất hợp đan xen chồng lấn diễn biến từng ngày.",
+    "fullDescription": "Tác giả đã cố giữ tâm thế thật bình tĩnh khi tiếp nhận những luồng tin các phía, những quan điểm đa chiều có khi trái ngược nhau, những nguồn tư liệu chính thống và phi chính thống xoay quanh đối tượng nhằm đưa đến cho độc giả một bức tranh toàn cảnh về chính trị, kinh tế và xã hội văn hóa Trung Quốc trong sự tương quan với khu vực và thế giới ngày nay'."
+  },
+  {
+    "id": "18",
+    "sku": "asdf211",
+    "name": "Combo Sách : Stephen Hawking - Một Trí Tuệ Không Giới Hạn + Einstein – Cuộc Đời Và Vũ Trụ",
+    "price": 18.5,
+    "discount": 15,
+    "new": false,
+    "rating": 3,
+    "saleCount": 12,
+    "category": ["Alphabooks"],
+    "tag": ["books", "kids", "combo"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/books/37.png",
+      "/assets/img/product/books/38.png",
+      "/assets/img/product/books/39.png"
+    ],
+    "shortDescription": "Cuốn sách khai thác và công bố những tư liệu mới nhất về Einstein, làm rõ những giai đoạn, sự kiện và vấn đề trong cuộc sống cá nhân của Einstein. ",
+    "fullDescription": "Cuốn sách khai thác và công bố những tư liệu mới nhất về Einstein, làm rõ những giai đoạn, sự kiện và vấn đề trong cuộc sống cá nhân của Einstein. Cuốn sách cũng chỉ ra và làm rõ những chặng trên con đường khoa học của Einstein, cho thấy những suy tư và trăn trở của ông để đưa ra những lý thuyết vật lý làm thay đổi toàn bộ nền vật lý thế kỷ XX, cũng như cuộc tranh luận của ông với các nhà cơ học lượng tử. Tác giả đã lột tả được cá tính, tư tưởng chính trị và những đặc điểm trong   trí tuệ, nhân cách của Einstein một cách sinh động."
+  },
+
+  {
+    "id": "19",
+    "sku": "asdf212",
+    "name": "Những Câu Hỏi Lớn - Vũ Trụ",
+    "price": 17.45,
+    "discount": 40,
+    "offerEnd": "October 2, 2020 12:11:00",
+    "new": true,
+    "rating": 5,
+    "saleCount": 36,
+    "category": ["Minh Long"],
+    "tag": ["books","universal", "science"],
+    "stock": 20,
+    "image": [
+      "/assets/img/product/books/40.png"
+    ],
+    "shortDescription": "NHỮNG CÂU HỎI LỚN đề cập đến những vấn đề cơ bản trong khoa học tự nhiên và xã hội, nhưng vẫn khiến những bộ óc vĩ đại trong lịch sử đau đầu."
+  },
+  {
+    "id": "20",
+    "sku": "asdf213",
+    "name": "Không gia đình",
+    "price": 15.5,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 20,
+    "category": ["Fahasa"],
+    "tag": ["books", "kids", "novel"],
+    "stock": 20,
+   
+    "image": [
+      "/assets/img/product/books/41.png",
+      "/assets/img/product/books/42.png",
+      "/assets/img/product/books/43.png"
+    ],
+    "shortDescription": "Không gia đình ( bìa mềm 2020 bản đặc biệt ) khác với cuốn không gia đình khác ở chỗ trong cuốn sách này được thêm hơn 10 trang để bạn đọc có thể viết cảm nghĩ của mình lên mỗi hồi đọc xong , để lưu lại kỉ niệm về cuốn sách đó .",
+    "fullDescription": "Không Gia Đình kể về chuyện đời Rémi, một cậu bé không cha mẹ, họ hàng thân thích. Sau khi phải rời khỏi vòng tay của người má nuôi, em đã đi theo đoàn xiếc thú của cụ già Vitalis tốt bụng. Kể từ đó, em lưu lạc khắp nơi, ban đầu dưới sự che chở của cụ Vitalis, sau đó thì tự lập và còn lo cả công việc biểu diễn và sinh sống cho cả một gánh hát rong. Đã có lúc em và cả đoàn lang thang cả mấy ngày đói khát rồi còn suýt chết rét. Có bận em bị lụt ngầm chôn trong giếng mỏ hàng tuần. Rồi có lần em còn mắc oan  bị giải ra tòa và phải ở tù. Nhưng cũng có khi em được nuôi nấng đàng hoàng, no ấm. Song dù trong hoàn cảnh nào, Rémi vẫn giữ được sự gan dạ, ngay thẳng, lòng tự trọng, tính thương người, ham lao động chứ không hạ mình hay gian dối. Cuối cùng, sau bao gian nan khổ cực, em đã đoàn tụ được với gia đình của mình."
+  },
+  {
+    "id": "21",
+    "sku": "asdf214",
+    "name": "Bố Già (Mario Puzo)",
+    "price": 25.5,
+    "discount": 10,
+    "new": true,
+    "rating": 5,
+    "saleCount": 25,
+    "category": ["Fahasa"],
+    "tag": ["books", "kids"],
+  
+    "image": [
+      "/assets/img/product/books/44.png",
+      "/assets/img/product/books/45.png",
+      "/assets/img/product/books/46.png"
+    ],
+    "shortDescription": "Thế giới ngầm được phản ánh trong tiểu thuyết Bố Già là sự gặp gỡ giữa một bên là ý chí cương cường và nền tảng gia tộc chặt chẽ theo truyền thống mafia xứ Sicily với một bên là xã hội Mỹ nhập nhằng đen trắng, mảnh đất màu mỡ cho những cơ hội làm ăn bất chính hứa hẹn những món lợi kếch xù. ",
+    "fullDescription": "Thế giới ngầm được phản ánh trong tiểu thuyết Bố Già là sự gặp gỡ giữa một bên là ý chí cương cường và nền tảng gia tộc chặt chẽ theo truyền thống mafia xứ Sicily với một bên là xã hội Mỹ nhập nhằng đen trắng, mảnh đất màu mỡ cho những cơ hội làm ăn bất chính hứa hẹn những món lợi kếch xù. Trong thế giới ấy, hình tượng Bố Già được tác giả dày công khắc họa đã trở thành bức chân dung bất hủ trong lòng người đọc. Từ một kẻ nhập cư tay trắng đến ông trùm tột đỉnh quyền uy, Don Vito Corleone là con rắn hổ mang thâm trầm, nguy hiểm khiến kẻ thù phải kiềng nể, e dè, nhưng cũng được bạn bè, thân quyến xem như một đấng toàn năng đầy nghĩa khí. Nhân vật trung tâm ấy đồng thời cũng là hiện thân của một pho triết lí rất “đời” được nhào nặn từ vốn sống của hàng chục năm lăn lộn giữa chốn giang hồ bao phen vào sinh ra tử, vì thế mà có ý kiến cho rằng “Bố Già là sự tổng hòa của mọi hiểu biết. Bố Già là đáp án cho mọi câu hỏi”."
+  },
+  {
+    "id": "22",
+    "sku": "asdf215",
+    "name": "Hai Số Phận (Bìa Cứng)",
+    "price": 19.85,
+    "discount": 0,
+    "offerEnd": "October 17, 2020 12:11:00",
+    "new": true,
+    "rating": 5,
+    "saleCount": 65,
+    "category": ["Fahasa"],
+    "tag": ["books", "kids"],
+
+    "image": [
+      "/assets/img/product/books/47.png"
+    ],
+    "shortDescription": "Hai Số Phận (Bìa Cứng) là cuốn sách không chỉ đơn thuần là một cuốn tiểu thuyết đây có thể coi như là 'thánh kinh' cho những người không dễ dãi chấp nhận lối mòn, cuốn sách được nhiều độc giả yêu thích.",
+    "fullDescription": "Trải qua hơn sáu mươi năm với biết bao biến động, hai con người giàu hoài bão miệt mài xây dựng vận mệnh của mình . “Hai số phận” nói về nỗi khát khao cháy bỏng, những nghĩa cử, những mối thâm thù, từng bước đường phiêu lưu, hiện thực thế giới và những góc khuấ mê hoặc người đọc bằng ngôn từ cô đọng, hai mạch truyện song song được xây dựng tinh tế từ những chi tiết nhỏ nhất.) "
+  },
+  {
+    "id": "23",
+    "sku": "asdf216",
+    "name": "Đồi Gió Hú (Bìa Cứng)(Tái Bản 2020)",
+    "price": 55.5,
+    "discount": 40,
+    "new": true,
+    "rating": 5,
+    "saleCount": 55,
+    "category": ["Nhã Nam"],
+    "tag": ["books", "novel", "love"],
+ 
+    "image": [
+      "/assets/img/product/books/48.png",
+      "/assets/img/product/books/49.png",
+      "/assets/img/product/books/50.png"
+    ],
+    "shortDescription": "Cuốn tiểu thuyết dữ dội và bí ẩn về Catherine Earnshaw, cô con gái nổi loạn của gia đình Earnshaw, với gã đàn ông thô ráp và điên rồ mà cha cô mang về nhà rồi đặt tên là Heathcliff, được trình diễn trên cái nền những đồng truông, quả đồi nước Anh cô quạnh và ban sơ không kém gì chính tình yêu của họ. ",
+    "fullDescription": "Cuốn tiểu thuyết dữ dội và bí ẩn về Catherine Earnshaw, cô con gái nổi loạn của gia đình Earnshaw, với gã đàn ông thô ráp và điên rồ mà cha cô mang về nhà rồi đặt tên là Heathcliff, được trình diễn trên cái nền những đồng truông, quả đồi nước Anh cô quạnh và ban sơ không kém gì chính tình yêu của họ. Từ nhỏ đến lớn, sự gắn bó của họ ngày càng trở nên ám ảnh. Gia đình, địa vị xã hội, và cả số phận rắp tâm chống lại họ, bản tính dữ dội và ghen tuông tột độ cũng hủy diệt họ, vậy nên toàn bộ thời gian hai con người yêu nhau đó sống trong thù hận và tuyệt vọng, mà cái chết chỉ có ý nghĩa khởi đầu. Một khởi đầu mới để hai linh hồn mãnh liệt đó được tự do tái ngộ, khi những cơn gió hoang vắng và điên cuồng tràn về quanh các lâu đài trong Đồi Gó Hú."
+  },
+  {
+    "id": "24",
+    "sku": "asdf217",
+    "name": "Sherlock Holmes – Tập 1",
+    "price": 29.85,
+    "discount": 10,
+    "offerEnd": "October 18, 2020 12:11:00",
+    "new": false,
+    "rating": 5,
+    "saleCount": 83,
+    "category": ["Nhã Nam"],
+    "tag": ["books", "novel"],
+    "stock": 0,
+    "image": [
+      "/assets/img/product/books/51.png",
+      "/assets/img/product/books/52.png"
+    ],
+    "shortDescription": "Đối với các độc giả yêu thích dòng văn trinh thám nói riêng cũng như những người yêu sách trên toàn thế giới nói chung thì không phải nói nhiều về sức hút của hai cái tên: nhà văn Conan Doyle và “đứa con tinh thần” của cả cuộc đời ông - Sherlock Holmes.",
+    "fullDescription": "Nhân vật Sherlock Holmes từ lâu đã trở thành nguồn cảm hứng cho hàng trăm, hàng ngàn tác phẩm ở nhiều loại hình nghệ thuật khác: từ âm nhạc, ca kịch đến điện ảnh… Bộ sách Sherlock Holmes toàn tập (Hộp 3 Tập) một lần nữa mang đến cho người đọc cơ hội được nhìn ngắm, ngưỡng mộ và đánh giá nhân vật độc đáo của nhà văn tài năng Conan Doyle. Chân dung cuộc đời, sự nghiệp và nhân cách của Sherlock Holmes chưa bao giờ được tái hiện chân thực, đầy đủ và sống động đến thế...Chỉ từ một giọt nước, người giỏi suy luận có thể đoán ra rất nhiều chuyện liên quan đến một thác nước hay một đại dương dù họ chưa bao giờ tận mắt nhìn thấy chúng.Như vậy, cuộc sống là một chuỗi mắt xích rộng lớn nhất của nó, nếu ta biết được một mắt xích. Như tất cả mọi khoa học khác, “suy đoán và phân tích” là một khoa học mà ta chỉ có thể làm chủ nó sau một quá trình nghiên cứu dài lâu, bền bỉ."
+  }
+  
+]
