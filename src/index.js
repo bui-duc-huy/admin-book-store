@@ -24,7 +24,6 @@ import { Router, Route, Switch, Redirect } from "react-router-dom";
 import Admin from "layouts/Admin.js";
 import RTL from "layouts/RTL.js";
 import Login from "views/login";
-
 import "assets/css/material-dashboard-react.css?v=1.9.0";
 import { AuthProvider } from "contexts";
 

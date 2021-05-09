@@ -1,17 +1,29 @@
 import React, { useEffect } from "react";
+import {auth} from 'config.js'
+import { useHistory } from 'react-router-dom'
+import { useAuth } from 'contexts'
 // @material-ui/core components
 
 export default function Login() {
+    const { login } = useAuth()
+    const history= useHistory()
     const handleLogin = async () => {
-        const username = prompt("Input User name", "");
-        const password = prompt("Input Password", "");
-        if (!username || !password) {
-            alert("Unauthenticated");
-            handleLogin();
+        try {
+            const provider = new auth.GoogleAuthProvider()
+            const hasAuth =  await auth().signInWithPopup(provider)
+            if (hasAuth.additionalUserInfo.profile.email == "duchuy.124dk@gmail.com") {
+                login(hasAuth)
+                history.push('/admin')
+            }
+        } catch (err) {
+            console.log(err)
         }
     };
+
     useEffect(() => {
-        handleLogin();
-    });
-    return <div>login</div>;
+        handleLogin()
+    }, []);
+    return (
+        <div>Login</div>
+    )
 }

@@ -17,37 +17,13 @@ const AuthContext = createContext();
 function AuthValue() {
     // const { onPost: loginUser }
     // const [isAuth, setIsAuth] = useState(!!localStorage.getItem(TOKEN_NAME));
-    const [isAuth, setIsAuth] = useState(true);
+    const [isAuth, setIsAuth] = useState(false);
     const [currentUser, setCurrentUser] = useState();
 
-    const login = useCallback(async (username, password) => {
-        try {
-            const res = await axios.post(LIST_API.LOGIN, {
-                username,
-                password,
-            });
-
-            if (res.data) {
-                localStorage.setItem(TOKEN_NAME, res.data.token);
-                setIsAuth(true);
-                return {
-                    success: true,
-                    message: "welcome",
-                };
-            } else {
-                return {
-                    success: false,
-                    message: "username or password is incorrect",
-                };
-            }
-            // console.log(res)
-        } catch (error) {
-            return {
-                success: false,
-                message: "username or password is incorrect",
-            };
-        }
-    });
+    const login = async (auth) => {
+        setIsAuth(true) 
+        setCurrentUser(auth.user)
+    };
 
     const getToken = useCallback(() => {
         const token = localStorage.getItem(TOKEN_NAME);
@@ -64,20 +40,6 @@ function AuthValue() {
     });
 
     const fetchCurrentUser = useCallback(async () => {
-        if (isAuth) {
-            const res = await axios.post(
-                LIST_API.CURRENT_USER,
-                {},
-                {
-                    headers: {
-                        Authorization: getToken(),
-                    },
-                }
-            );
-            if (res.data.current_user) {
-                setCurrentUser(res.data.current_user);
-            }
-        }
     });
 
     useEffect(() => {
