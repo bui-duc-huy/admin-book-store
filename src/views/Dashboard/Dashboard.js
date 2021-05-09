@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // react plugin for creating charts
 import ChartistGraph from "react-chartist";
 // @material-ui/core
@@ -28,13 +28,14 @@ import CardHeader from "components/Card/CardHeader.js";
 import CardIcon from "components/Card/CardIcon.js";
 import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
+import { db } from "../../config";
 
 import { bugs, website, server } from "variables/general.js";
 
 import {
   dailySalesChart,
   emailsSubscriptionChart,
-  completedTasksChart
+  completedTasksChart,
 } from "variables/charts.js";
 
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
@@ -43,6 +44,22 @@ const useStyles = makeStyles(styles);
 
 export default function Dashboard() {
   const classes = useStyles();
+  const [renderData, setRenderData] = useState([0, 0, 0, 0]);
+  const fetchData = async () => {
+    const users = db.collection("users_table");
+    const orders = db.collection("orders_table");
+    const products = db.collection("products_table");
+
+    const products_data = await products.get();
+    const orders_data = await orders.get();
+    const users_data = await users.get();
+
+    setRenderData([users_data.size, products_data.size, orders_data.size, 0]);
+  };
+
+  useEffect(() => {
+    fetchData();
+  });
   return (
     <div>
       <GridContainer>
@@ -53,15 +70,11 @@ export default function Dashboard() {
                 <Icon>content_copy</Icon>
               </CardIcon>
               <p className={classes.cardCategory}>User</p>
-              <h3 className={classes.cardTitle}>
-                1000
-              </h3>
+              <h3 className={classes.cardTitle}>{renderData[0]}</h3>
             </CardHeader>
             <CardFooter stats>
               <DateRange></DateRange>
-              <div className={classes.stats}>
-                30 user today
-              </div>
+              <div className={classes.stats}>30 user today</div>
             </CardFooter>
           </Card>
         </GridItem>
@@ -89,7 +102,7 @@ export default function Dashboard() {
                 <Icon>info_outline</Icon>
               </CardIcon>
               <p className={classes.cardCategory}>New Product</p>
-              <h3 className={classes.cardTitle}>75</h3>
+              <h3 className={classes.cardTitle}>{renderData[1]}</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
@@ -105,8 +118,8 @@ export default function Dashboard() {
               <CardIcon color="info">
                 <Accessibility />
               </CardIcon>
-              <p className={classes.cardCategory}>Followers</p>
-              <h3 className={classes.cardTitle}>+245</h3>
+              <p className={classes.cardCategory}>Orders</p>
+              <h3 className={classes.cardTitle}>{renderData[2]}</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
