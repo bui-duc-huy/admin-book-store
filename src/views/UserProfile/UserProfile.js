@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // core components
@@ -8,6 +8,7 @@ import Table from "components/Table/Table.js";
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
+import { db } from 'config.js'
 
 const styles = {
     cardCategoryWhite: {
@@ -43,6 +44,17 @@ const useStyles = makeStyles(styles);
 
 export default function TableList() {
     const classes = useStyles();
+    const [users, setUsers] = useState()
+    const fetchUsers = async () => {
+        console.log(db)
+        const userDb = db.collection("user_table").doc("SF")
+        const users = await userDb.get()
+        console.log(users)
+
+    } 
+    useEffect(() => {
+        fetchUsers()  
+    })
     return (
         <GridContainer>
             <GridItem xs={12} sm={12} md={12}>
