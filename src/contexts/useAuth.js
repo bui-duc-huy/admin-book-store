@@ -1,16 +1,4 @@
-import React, {
-  useContext,
-  createContext,
-  useEffect,
-  useCallback,
-  useState,
-} from "react";
-import axios from "axios";
-
-const TOKEN_NAME = "access-token";
-const LIST_API = {
-  LOGIN: "",
-};
+import React, { useContext, createContext, useState } from "react";
 
 const AuthContext = createContext();
 
@@ -25,31 +13,9 @@ function AuthValue() {
     setCurrentUser(auth.user);
   };
 
-  const getToken = useCallback(() => {
-    const token = localStorage.getItem(TOKEN_NAME);
-    const result = `Barer ${token}`;
-    return result;
-  });
-
-  const logout = useCallback(() => {
-    localStorage.removeItem(TOKEN_NAME);
-    setIsAuth(false);
-    return {
-      message: "Goodbye",
-    };
-  });
-
-  const fetchCurrentUser = useCallback(async () => {});
-
-  useEffect(() => {
-    fetchCurrentUser();
-  }, [isAuth]);
-
   return {
     isAuth,
     login,
-    logout,
-    getToken,
     currentUser,
   };
 }

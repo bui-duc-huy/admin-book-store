@@ -5,7 +5,8 @@
   "private": false,
   "main": "dist/index.js",
   "dependencies": {
-    "@material-ui/core": "4.10.0",
+    "@material-ui/core": "latest",
+    "@material-ui/data-grid": "latest",
     "@material-ui/icons": "4.9.1",
     "axios": "^0.21.1",
     "chartist": "0.10.1",
