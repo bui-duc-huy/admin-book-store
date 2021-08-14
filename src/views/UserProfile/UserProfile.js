@@ -47,6 +47,7 @@ const columns = [
   { field: "id", headerName: "ID", width: 200 },
   { field: "nameBuyer", headerName: "Customer name", width: 300 },
   { field: "emailBuyer", headerName: "Customer email", width: 300 },
+  { field: "order_code", headerName: "order_code", width: 300 },
   {
     field: "phoneBuyer",
     headerName: "Customer Phone",
@@ -91,23 +92,57 @@ export default function TableList() {
     fetchOrders();
   }, []);
 
-  const onExecuteOrder = () => {
-    if (rowSelected.executed) {
-      setToggle(false);
-      return;
+  const onExecuteOrder = async () => {
+    const order_raw = {
+      token: "861286b9-fd0f-11eb-b5ad-92f02d942f87",
+      note: rowSelected.noteBill,
+      "required_note": "KHONGCHOXEMHANG",
+      shop_id: "82095",
+      to_name: rowSelected.nameBuyer,
+      to_phone: rowSelected.phoneBuyer,
+      to_address: rowSelected.addressBuyer,
+      to_ward_code: "20308",
+      to_district_id: 1444,
+      weight: 200,
+      length: 1,
+      width: 19,
+      height: 10,
+      service_type_id: 2,
+      payment_type_id: 2,
+      name: "Sach",
+      quantity: 1,
+      Items: []
     }
+
+    const orderCreate = await fetch("https://dev-online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/create", {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json',
+        'ShopId': '82095',
+        'Token': '861286b9-fd0f-11eb-b5ad-92f02d942f87'
+      },
+      body: JSON.stringify(order_raw)
+    })
+
+    const response = await orderCreate.json()
+    console.log(response)
+
+
     const dataRef = db.collection("orders_table").doc(rowSelected.id);
     dataRef.update({
       executed: true,
+      order_code: response.data.order_code
     });
     setToggle(false);
     fetchOrders();
   };
 
-  const handleRowSelected = (row) => {
-    if (row.isSelected) {
-      setRowSelected(row.data);
-      setToggle(true);
+  const handleRowSelected = (rows) => {
+    for (const order of orders) {
+      if (rows.indexOf(order.id) !== -1) {
+        setRowSelected(order);
+        setToggle(true);
+      }
     }
   };
 
@@ -124,7 +159,7 @@ export default function TableList() {
               rows={orders}
               columns={columns}
               checkboxSelection
-              onRowSelected={handleRowSelected}
+              onSelectionModelChange={handleRowSelected}
             ></DataGrid>
             <Drawer
               anchor="right"
@@ -161,6 +196,7 @@ export default function TableList() {
                     style={{ position: "absolute", bottom: "0px" }}
                   >
                     <button onClick={onExecuteOrder}>Execute</button>
+                    <button onClick={onExecuteOrder}>Create Order</button>
                   </GridContainer>
                 </CardBody>
               </Card>
